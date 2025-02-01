@@ -1,0 +1,22 @@
+{
+  "name": "solana-dex-bot",
+  "version": "1.0.0",
+  "description": "Solana DEX Trading Bot",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "swap": "node src/swap.js",
+    "swap-to-usdc": "node swap-sol-to-usdc.js",
+    "jupiter-swap": "node jupiter-swap.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.90.0",
+    "@solana/spl-token": "^0.4.0",
+    "@project-serum/serum": "^0.13.65",
+    "bs58": "^5.0.0",
+    "decimal.js": "^10.4.3",
+    "dotenv": "^16.4.1",
+    "node-fetch": "^3.3.2"
+  }
+}
